@@ -6,11 +6,13 @@
 /*   By: sesimsek <sesimsek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 19:43:36 by sesimsek          #+#    #+#             */
-/*   Updated: 2025/10/25 21:22:19 by sesimsek         ###   ########.fr       */
+/*   Updated: 2025/10/26 18:17:41 by sesimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
+
+const int Fixed::_fractionalBits = 8;
 
 Fixed::Fixed()
 {
